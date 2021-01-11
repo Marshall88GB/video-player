@@ -155,6 +155,7 @@ function toogleFullscreen() {
     }
     fullscreen = !fullscreen;
 }
+video.play();
 
 // Event Listiner
 playBtn.addEventListener('click', togglePlay);
