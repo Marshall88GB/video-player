@@ -28,6 +28,7 @@ function togglePlay() {
     }
 }
 
+
 // On Video End
 
 video.addEventListener('ended', showPlayIcon);
@@ -155,11 +156,12 @@ function toogleFullscreen() {
     }
     fullscreen = !fullscreen;
 }
-video.play();
+
 
 // Event Listiner
 playBtn.addEventListener('click', togglePlay);
 video.addEventListener('click', togglePlay);
+video.addEventListener('load', togglePlay);
 video.addEventListener('timeupdate', updateProgress);
 video.addEventListener('canplay', updateProgress);
 progressRange.addEventListener('click', setProgress);
