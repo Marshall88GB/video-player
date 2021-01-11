@@ -159,9 +159,7 @@ function toogleFullscreen() {
 
 
 // Event Listiner
-window.addEventListener('load', (event) => {
-togglePlay();
-});
+
 playBtn.addEventListener('click', togglePlay);
 video.addEventListener('click', togglePlay);
 video.addEventListener('timeupdate', updateProgress);
