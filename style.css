@@ -10,8 +10,8 @@ html {
 body {
     margin: 0;
     min-height: 100vh;
-    background-color: #e3e3e3;
-    background-image: url(26293.jpg);
+    background-color: black;
+
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -34,6 +34,7 @@ body {
     background: black;
     position: relative;
     cursor: pointer;
+        box-shadow: 0px 0px 7px 0px white;
 }
 
 video {
